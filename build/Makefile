@@ -128,6 +128,30 @@ MyQtApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/build
 .PHONY : MyQtApp/fast
 
+Model/bitBoardUtility.obj: Model/bitBoardUtility.cpp.obj
+.PHONY : Model/bitBoardUtility.obj
+
+# target to build an object file
+Model/bitBoardUtility.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj
+.PHONY : Model/bitBoardUtility.cpp.obj
+
+Model/bitBoardUtility.i: Model/bitBoardUtility.cpp.i
+.PHONY : Model/bitBoardUtility.i
+
+# target to preprocess a source file
+Model/bitBoardUtility.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.i
+.PHONY : Model/bitBoardUtility.cpp.i
+
+Model/bitBoardUtility.s: Model/bitBoardUtility.cpp.s
+.PHONY : Model/bitBoardUtility.s
+
+# target to generate assembly for a file
+Model/bitBoardUtility.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyQtApp.dir\build.make CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.s
+.PHONY : Model/bitBoardUtility.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MyQtApp
+	@echo ... Model/bitBoardUtility.obj
+	@echo ... Model/bitBoardUtility.i
+	@echo ... Model/bitBoardUtility.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -71,28 +71,45 @@ include CMakeFiles/MyQtApp.dir/flags.make
 CMakeFiles/MyQtApp.dir/codegen:
 .PHONY : CMakeFiles/MyQtApp.dir/codegen
 
+CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj: CMakeFiles/MyQtApp.dir/flags.make
+CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj: CMakeFiles/MyQtApp.dir/includes_CXX.rsp
+CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj: D:/repos/Rocket-Chess/Model/bitBoardUtility.cpp
+CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj: CMakeFiles/MyQtApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\repos\Rocket-Chess\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj -MF CMakeFiles\MyQtApp.dir\Model\bitBoardUtility.cpp.obj.d -o CMakeFiles\MyQtApp.dir\Model\bitBoardUtility.cpp.obj -c D:\repos\Rocket-Chess\Model\bitBoardUtility.cpp
+
+CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repos\Rocket-Chess\Model\bitBoardUtility.cpp > CMakeFiles\MyQtApp.dir\Model\bitBoardUtility.cpp.i
+
+CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repos\Rocket-Chess\Model\bitBoardUtility.cpp -o CMakeFiles\MyQtApp.dir\Model\bitBoardUtility.cpp.s
+
 CMakeFiles/MyQtApp.dir/main.cpp.obj: CMakeFiles/MyQtApp.dir/flags.make
 CMakeFiles/MyQtApp.dir/main.cpp.obj: CMakeFiles/MyQtApp.dir/includes_CXX.rsp
 CMakeFiles/MyQtApp.dir/main.cpp.obj: D:/repos/Rocket-Chess/main.cpp
 CMakeFiles/MyQtApp.dir/main.cpp.obj: CMakeFiles/MyQtApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\repos\Rocket-Chess\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyQtApp.dir/main.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyQtApp.dir/main.cpp.obj -MF CMakeFiles\MyQtApp.dir\main.cpp.obj.d -o CMakeFiles\MyQtApp.dir\main.cpp.obj -c D:\repos\Rocket-Chess\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\repos\Rocket-Chess\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyQtApp.dir/main.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyQtApp.dir/main.cpp.obj -MF CMakeFiles\MyQtApp.dir\main.cpp.obj.d -o CMakeFiles\MyQtApp.dir\main.cpp.obj -c D:\repos\Rocket-Chess\main.cpp
 
 CMakeFiles/MyQtApp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyQtApp.dir/main.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repos\Rocket-Chess\main.cpp > CMakeFiles\MyQtApp.dir\main.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repos\Rocket-Chess\main.cpp > CMakeFiles\MyQtApp.dir\main.cpp.i
 
 CMakeFiles/MyQtApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyQtApp.dir/main.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repos\Rocket-Chess\main.cpp -o CMakeFiles\MyQtApp.dir\main.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repos\Rocket-Chess\main.cpp -o CMakeFiles\MyQtApp.dir\main.cpp.s
 
 # Object files for target MyQtApp
 MyQtApp_OBJECTS = \
+"CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj" \
 "CMakeFiles/MyQtApp.dir/main.cpp.obj"
 
 # External object files for target MyQtApp
 MyQtApp_EXTERNAL_OBJECTS =
 
+MyQtApp.exe: CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj
 MyQtApp.exe: CMakeFiles/MyQtApp.dir/main.cpp.obj
 MyQtApp.exe: CMakeFiles/MyQtApp.dir/build.make
 MyQtApp.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Widgets.a
@@ -101,7 +118,7 @@ MyQtApp.exe: C:/Qt/6.8.2/mingw_64/lib/libQt6Core.a
 MyQtApp.exe: CMakeFiles/MyQtApp.dir/linkLibs.rsp
 MyQtApp.exe: CMakeFiles/MyQtApp.dir/objects1.rsp
 MyQtApp.exe: CMakeFiles/MyQtApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\repos\Rocket-Chess\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MyQtApp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\repos\Rocket-Chess\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyQtApp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyQtApp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

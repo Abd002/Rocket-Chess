@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj"
+  "CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj.d"
   "CMakeFiles/MyQtApp.dir/main.cpp.obj"
   "CMakeFiles/MyQtApp.dir/main.cpp.obj.d"
   "MyQtApp.exe"

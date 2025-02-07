@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/repos/Rocket-Chess/Model/bitBoardUtility.cpp" "CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj" "gcc" "CMakeFiles/MyQtApp.dir/Model/bitBoardUtility.cpp.obj.d"
   "D:/repos/Rocket-Chess/main.cpp" "CMakeFiles/MyQtApp.dir/main.cpp.obj" "gcc" "CMakeFiles/MyQtApp.dir/main.cpp.obj.d"
   )
 
