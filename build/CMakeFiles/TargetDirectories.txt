@@ -1,3 +1,0 @@
-D:/repos/Rocket-Chess/build/CMakeFiles/MyQtApp.dir
-D:/repos/Rocket-Chess/build/CMakeFiles/edit_cache.dir
-D:/repos/Rocket-Chess/build/CMakeFiles/rebuild_cache.dir
