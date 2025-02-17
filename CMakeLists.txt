@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.5)
 project(main)
 
 # Find all .cpp and .hpp files in the current directory
-file(GLOB SOURCES "*.cpp" "*.hpp")
+file(GLOB SOURCES "src/*.cpp" "src/*.hpp")
 
 # Print all source files (for debugging)
 message("All sources: ${SOURCES}")
