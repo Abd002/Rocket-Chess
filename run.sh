@@ -13,4 +13,4 @@ cmake -G "MinGW Makefiles" ..
 make
 
 # Run the executable
-./MyQtApp
+./main
