@@ -1,6 +1,9 @@
 #include <iostream>
-
+#include "uci.hpp"
 int main()
 {
-    std::cout << "Hello, ";
+    UCI handler;
+    handler.start();
+
+    return 0;
 }
