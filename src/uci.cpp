@@ -1,5 +1,5 @@
-#include <string>
 #include "uci.hpp"
+#include "board.hpp"
 
 void UCI::handleCommand(const std::string &command)
 {
@@ -15,6 +15,10 @@ void UCI::handleCommand(const std::string &command)
     }
     else if (command.substr(0, 8) == "position")
     {
+        std::string fen = command.substr(9, command.size() - 9);
+        std::cout << fen << "\n";
+        Board board(fen);
+        board.printBoard();
     }
     else if (command.substr(0, 2) == "go")
     {
