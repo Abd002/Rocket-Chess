@@ -1,3 +1,4 @@
+#include <string>
 #include "uci.hpp"
 
 void UCI::handleCommand(const std::string &command)
@@ -17,7 +18,13 @@ void UCI::handleCommand(const std::string &command)
     }
     else if (command.substr(0, 2) == "go")
     {
-    }else if((command == "quit"){
+    }
+    else if (command == "quit")
+    {
+        exit(0);
+    }
+    else
+    {
         exit(0);
     }
 }
