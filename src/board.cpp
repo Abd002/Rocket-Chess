@@ -1,11 +1,11 @@
 #include "board.hpp"
 
-Board::Board(std::string fen)
+Board::Board(const std::string &fen)
 {
     loadPosFromFEN(fen);
 }
 
-void Board::loadPosFromFEN(std::string fen)
+void Board::loadPosFromFEN(const std::string &fen)
 {
     int x = 0;
     int y = 0;

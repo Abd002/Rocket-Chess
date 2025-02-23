@@ -8,11 +8,11 @@
 class Board
 {
 private:
-    void loadPosFromFEN(std::string fen);
+    void loadPosFromFEN(const std::string &fen);
 
 public:
     Piece pieces[8][8];
-    Board(std::string fen);
+    Board(const std::string &fen);
     void printBoard();
 };
 
